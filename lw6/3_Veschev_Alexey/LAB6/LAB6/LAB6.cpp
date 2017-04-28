@@ -114,8 +114,8 @@ int main()
 	std::cin >> key;
 	std::cout << std::endl;
 	
-	EncipherGamma("alphabet_eng.txt", "file.txt", gamma);
-	EncipherCaesar("alphabet_eng.txt", "file.txt", key);
+	EncipherGamma("alphabet_eng.txt", "Harry_Potter_1_for_time.txt", gamma);
+	EncipherCaesar("alphabet_eng.txt", "Harry_Potter_1_for_time.txt", key);
 	std::cout << std::endl;
     return 0;
 }
